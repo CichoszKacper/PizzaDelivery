@@ -4,10 +4,13 @@
     box-sizing: border-box;
 }
 
+/*Resizing image*/
 img.resize {
     max-width:15%;
     max-height:15%;
 }
+
+/*Resizing logo image*/
 .logo-image{
     display: flex;
     height: 100px;
@@ -17,6 +20,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+/*Navigational bar parameters*/
 header{
     display: flex;
     width: 80%;
@@ -25,7 +29,7 @@ header{
     align-items: center;
 }
 
-/* Centered text */
+/* Centered text inside the "Order now" section*/
 .centered {
     position: absolute;
     top: 300px;
@@ -49,6 +53,7 @@ header{
     display: flex;
 }
 
+/*Resizing pizzeria logo text*/
 .logo{
     font-size: 40px;
     font-weight: 700;
@@ -69,6 +74,7 @@ nav{
     list-style: none;
 }
 
+/*Setting colours and size of nav bar links*/
 .nav-link{
     color: #5f5f79;
     font-size: 18px;
@@ -80,6 +86,7 @@ nav{
     display: flex;
 }
 
+/*Positioning cover image for "Order now" button*/
 .cover img{
     position: absolute;
     top: 250px;
@@ -90,6 +97,7 @@ nav{
 .imgbox {
     height: 100%;
 }
+
 .background-image {
     /* Set rules to fill background */
     min-height: 100%;
@@ -124,7 +132,7 @@ nav{
     content: attr(data-text);
 }
 
-/* General Buttons */
+/* General Button to Proceed and Order */
 .cta-add {
     top: 60%;
     width: 170px;
@@ -167,7 +175,7 @@ nav{
     border-radius: 0 5px 5px 0;
 }
 
-/* General Buttons */
+/* General Buttons to Order Now */
 .order-now-btn {
     top: 60%;
     left: 52%;
@@ -210,6 +218,7 @@ nav{
     border-radius: 0 5px 5px 0;
 }
 
+/*Title positioning*/
 .title-about-us{
     position: absolute;
     background: #895900;
@@ -219,6 +228,7 @@ nav{
     left: 200px;
 }
 
+/*Text positioning*/
 .text-about-us{
     position: absolute;
     text-align: left;
@@ -227,6 +237,7 @@ nav{
     left: 150px;
 }
 
+/*Order Now description positioning and parameters*/
 .order-now-description{
     position: absolute;
     background: #895900;
@@ -247,7 +258,7 @@ nav{
     top: 60%;
 }
 
-
+/*Parameters of each section in Contact details form*/
 .name{
     top: 150px;
     left: 200px;
@@ -354,7 +365,7 @@ nav{
     overflow: hidden;
 }
 
-
+/*Contact details form input settings*/
 .form input{
     position: absolute;
     width: 100%;
@@ -368,6 +379,7 @@ nav{
     background: rgba(0,0,0,0.1);
 }
 
+/*Contact details form label settings*/
 .form label{
     position: absolute;
     bottom: 0px;
@@ -377,6 +389,7 @@ nav{
     pointer-events: none;
     border-bottom: 1px solid black;
 }
+
 .form label::after{
     content: "";
     position: absolute;
@@ -395,6 +408,7 @@ nav{
     transition: all 0.3s ease;
 }
 
+/*Setting transition of the contact details form*/
 .form input:focus + .label-name .content-name,
 .form input:valid + .label-name .content-name{
     background: rgba(255,255,255,0.2);
@@ -410,6 +424,7 @@ nav{
     transform: translateX(0%);
 }
 
+/*Pizza selection form input settings and each form parameters*/
 .selection{
     position: absolute;
     top: 24%;

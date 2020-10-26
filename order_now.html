@@ -10,6 +10,7 @@
 </head>
 <body>
     <header>
+        <!--Header containing navigational bar with logo and clickable pizzeria name-->
         <div class="logo-container">
             <a href="index.html" style="text-decoration: none">
                 <img class="logo-image" src="logo.jpg" alt="logo"/>
@@ -19,6 +20,7 @@
                 <h4 class="logo">Pizza Delivery</h4>
             </a>
         </div>
+        <!--Navigational bar-->
         <nav>
             <ul class="nav-links">
                 <li><a class="nav-link" href="pizza_choice.html">Order Now</a></li>
@@ -28,57 +30,75 @@
         </nav>
     </header>
 
+    <!--Main with background image and forms to fill contact details-->
     <main>
         <form action="order_now.html" method="get">
             <div class="form">
                 <img class="order-now-image" src="ordernow-background.jpg" alt="Background image" />
+
+                <!--Form to input name-->
                 <div class="name">
                     <input type="text" name="name" id="name" autocomplete="off" required>
                     <label class="label-name" for="name">
                         <span class="content-name">Name</span>
                     </label>
-                </div>
+                </div><!--End of class "name"-->
+
+                <!--Form to input surname-->
                 <div class="surname">
                     <input type="text" name="surname" id="surname" autocomplete="off" required>
                     <label class="label-name" for="surname">
                         <span class="content-name">Surname</span>
                     </label>
-                </div>
+                </div><!--End of class "surname"-->
+
+                <!--Form to input phone-->
                 <div class="phone">
                     <input type="tel" name="phone" id="phone" autocomplete="off" required>
                     <label class="label-name" for="phone">
                         <span class="content-name">Phone number</span>
                     </label>
-                </div>
+                </div><!--End of class "phone"-->
+
+                <!--Form to input email-->
                 <div class="email">
                     <input type="email" name="email" id="email" autocomplete="off" required>
                     <label class="label-name" for="email">
                         <span class="content-name">Email address</span>
                     </label>
-                </div>
+                </div><!--End of class "email"-->
+
+                <!--Form to input address-->
                 <div class="address">
                     <input type="text" name="address" id="address" autocomplete="off" required>
                     <label class="label-name" for="address">
                         <span class="content-name">Address</span>
                     </label>
-                </div>
+                </div><!--End of class "address"-->
+
+                <!--Form to input city-->
                 <div class="city">
                     <input type="text" name="city" id="city" autocomplete="off" required>
                     <label class="label-name" for="city">
                         <span class="content-name">City</span>
                     </label>
-                </div>
+                </div><!--End of class "city"-->
+
+                <!--Form to input postcode-->
                 <div class="postcode">
                     <input type="text" name="postcode" id="postcode" autocomplete="off" required>
                     <label class="label-name" for="postcode">
                         <span class="content-name">Postcode</span>
                     </label>
-                </div>
+                </div><!--End of class "postcode"-->
+
+                <!--Button to click "Order"-->
                 <button class="order-now-btn" type="submit">Order</button>
+                <!--Text with instructions-->
                 <div class="order-now-description">
                     Fill the fields to order pizza and click the button to order.
-                </div>
-            </div>
+                </div><!--End of class "order-now-description"-->
+            </div><!--End of class "form"-->
         </form>
     </main>
 </body>

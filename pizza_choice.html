@@ -10,6 +10,7 @@
 </head>
 <body>
     <header>
+        <!--Header containing navigational bar with logo and clickable pizzeria name-->
         <div class="logo-container">
             <a href="index.html" style="text-decoration: none">
                 <img class="logo-image" src="logo.jpg" alt="logo"/>
@@ -19,6 +20,7 @@
                 <h4 class="logo">Pizza Delivery</h4>
             </a>
         </div>
+        <!--Navigational bar-->
         <nav>
             <ul class="nav-links">
                 <li><a class="nav-link" href="pizza_choice.html">Order Now</a></li>
@@ -28,11 +30,13 @@
         </nav>
     </header>
 
+    <!--Main with background image and forms to select pizza-->
     <main>
         <form action="pizza_choice.html" method="get">
             <div class="pizza-form">
                 <img class="order-now-image" src="ordernow-background.jpg" alt="Background image" />
                 <div class="selection">
+                    <!--Form to select size of pizza build from radios-->
                     <div class="size">
                         Choose your size:
                         <label for="ten_inch">
@@ -49,8 +53,9 @@
                             <input type="radio" name="size" id="sixteen_inch" value="16 inch" checked>
                             16 inch
                         </label>
+                    </div><!--End class size-->
 
-                    </div>
+                    <!--Form to select crust of the pizza build from radios-->
                     <div class="crust">
                         Choose your crust:
                         <label for="original_crust">
@@ -62,8 +67,9 @@
                             <input type="radio" name="crust" id="thin_crust" value="thin crust">
                             Thin crust
                         </label>
+                    </div><!--End class crust-->
 
-                    </div>
+                    <!--Form to select toppings on the pizza build from checkboxes-->
                     <div class="toppings">
                         Choose your toppings:
                         <label for="chicken">
@@ -100,16 +106,19 @@
                             <input type="checkbox" name="topping" id="pepperoni">
                             Pepperoni
                         </label>
+                    </div><!--End class toppings-->
+                </div><!--End class selection-->
 
-                    </div>
-                </div>
+                <!--Button to click "Proceed"-->
                 <a class="proceed-order" href="order_now.html">
                     <button class="order-now-btn" type="button">Proceed</button>
                 </a>
+
+                <!--Text with instructions-->
                 <div class="order-now-description">
                     Select size, crust and topping of your pizza.
-                </div>
-            </div>
+                </div><!--End class order-now-description-->
+            </div><!--End class pizza-form-->
         </form>
     </main>
 </body>
