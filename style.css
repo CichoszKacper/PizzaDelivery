@@ -8,9 +8,12 @@ img.resize {
     max-width:15%;
     max-height:15%;
 }
-
+.logo-image{
+    display: flex;
+    height: 100px;
+    width: 100px;
+}
 body{
-
     font-family: 'Poppins', sans-serif;
 }
 
@@ -29,8 +32,11 @@ header{
     left: 100px;
     width: 400px;
     height: 300px;
-    background: rgba(0,0,0,0.9);
+    border-radius: 25px;
+    filter: brightness(90%);
+    background: rgba(0,0,0,0.2);
     font-size: 40px;
+    padding-bottom: 100px;
     color: azure;
     font-family: 'Poppins', sans-serif;
     display: flex;
@@ -44,8 +50,10 @@ header{
 }
 
 .logo{
-    font-weight: 400;
+    font-size: 40px;
+    font-weight: 700;
     margin: 5px;
+    color: #895900;
 }
 
 .logo-container{
@@ -83,19 +91,364 @@ nav{
     height: 100%;
 }
 .background-image {
-    max-width: 100%;
-    max-height: 100%;
-    margin: auto;
-    z-index: 1;
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+
+    /* Set up positioning */
+    position: fixed;
+    top: 17vh;
+    left: 0;
+}
+
+.order-now-image {
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+
+    /* Set up positioning */
+    position: fixed;
+    top: 17vh;
+    left: 0;
 }
 
 .centered:after{
     content: attr(data-text);
 }
 
-.cta-add{
+/* General Buttons */
+.cta-add {
+    top: 60%;
+    width: 170px;
+    height: 60px;
+    background: linear-gradient(to bottom, #fbfbfb 0%, #895900 100%) ;
+    border: none;
+    border-radius: 5px;
     position: absolute;
-    top: 70%;
-    align-items: center;
+    border-bottom: 4px solid #895900;
+    color: brown;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.1);
+    font-size: 18px;
+    text-align: left;
+    text-indent: 5px;
+    box-shadow: 0px 3px 0px 0px rgba(0,0,0,.1);
+    cursor: pointer;
+}
+
+
+.cta-add:active {
+    box-shadow: 0px 2px 0px 0px rgba(0,0,0,.2);
+    top: 60%;
+}
+
+.cta-add:after {
+    content: "";
+    width: 0;
+    height: 0;
+    display: block;
+    border-top: 30px solid #89400b ;
+    border-bottom: 30px solid #89400b;
+    border-left: 16px solid transparent;
+    border-right: 30px solid #89400b;
+    position: absolute;
+    opacity: 0.6;
+    right: 0;
+    top: 0;
+    border-radius: 0 5px 5px 0;
+}
+
+/* General Buttons */
+.order-now-btn {
+    top: 60%;
+    left: 52%;
+    width: 170px;
+    height: 60px;
+    background: linear-gradient(to bottom, #fbfbfb 0%, #895900 100%) ;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    border-bottom: 4px solid #895900;
+    color: brown;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.1);
+    font-size: 18px;
+    text-align: center;
+    text-indent: -5px;
+    box-shadow: 0px 3px 0px 0px rgba(0,0,0,.1);
+    cursor: pointer;
+}
+
+.order-now-btn:active {
+    box-shadow: 0px 2px 0px 0px rgba(0,0,0,.2);
+    top: 60%;
+}
+
+.order-now-btn:after {
+    content: "";
+    width: 0;
+    height: 0;
+    display: block;
+    border-top: 30px solid #89400b ;
+    border-bottom: 30px solid #89400b;
+    border-left: 16px solid transparent;
+    border-right: 30px solid #89400b;
+    position: absolute;
+    opacity: 0.6;
+    right: 0;
+    top: 0;
+    border-radius: 0 5px 5px 0;
+}
+
+.title-about-us{
+    position: absolute;
+    background: #895900;
+    text-align: center;
+    width: 300px;
+    top: 150px;
+    left: 200px;
+}
+
+.text-about-us{
+    position: absolute;
+    text-align: left;
+    width: 500px;
+    top: 250px;
+    left: 150px;
+}
+
+.order-now-description{
+    position: absolute;
+    background: #895900;
+    border-radius: 4px;
+    border: 3px solid black;
+    padding: 10px;
+    width: 300px;
+    font-size: 30px;
+    top: 30%;
+    left: 48%;
+    z-index: 1;
+}
+
+.button-order{
+    position: absolute;
+    text-align: center;
+    left: 120px;
+    top: 60%;
+}
+
+
+.name{
+    top: 150px;
+    left: 200px;
+    font-size: 16px;
+    width: 50%;
+    position: absolute;
+    height: 50px;
+    width: 400px;
+    display: flex;
     justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+
+.surname{
+    top: 230px;
+    left: 200px;
+    font-size: 16px;
+    width: 50%;
+    position: absolute;
+    height: 50px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.phone{
+    top: 310px;
+    left: 200px;
+    font-size: 16px;
+    width: 50%;
+    position: absolute;
+    height: 50px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.email{
+    top: 390px;
+    left: 200px;
+    font-size: 16px;
+    width: 50%;
+    position: absolute;
+    height: 50px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.address{
+    top: 470px;
+    left: 200px;
+    font-size: 16px;
+    width: 50%;
+    position: absolute;
+    height: 50px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.city{
+    top: 550px;
+    left: 200px;
+    font-size: 16px;
+    width: 50%;
+    position: absolute;
+    height: 50px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.postcode{
+    top: 630px;
+    left: 200px;
+    font-size: 16px;
+    width: 50%;
+    position: absolute;
+    height: 50px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+
+.form input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-size: 22px;
+    padding-top: 20px;
+    text-align: left;
+    border: none;
+    outline: none;
+    background: rgba(0,0,0,0.1);
+}
+
+.form label{
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid black;
+}
+.form label::after{
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
+    height: 100%;
+    width: 100%;
+    border-bottom: 5px solid #895900;
+    transform: translateX(-100%);
+}
+
+.content-name{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    transition: all 0.3s ease;
+}
+
+.form input:focus + .label-name .content-name,
+.form input:valid + .label-name .content-name{
+    background: rgba(255,255,255,0.2);
+    transform: translateY(-150%);
+    font-family: "Arial Rounded MT Bold";
+    font-size: 16px;
+    color: brown;
+
+}
+
+.form input:focus + .label-name::after,
+.form input:valid + .label-name::after{
+    transform: translateX(0%);
+}
+
+.selection{
+    position: absolute;
+    top: 24%;
+    left: 15%;
+    height: 500px;
+    width: 250px;
+    background: #895900;
+    border: 3px solid black;
+    border-radius: 4px;
+    z-index: 1;
+}
+
+.pizza-form label{
+    display: block;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.size{
+    position: absolute;
+    float: right;
+    top: 5%;
+    left: 5%;
+    z-index: 1;
+}
+
+.crust{
+    position: absolute;
+    float: right;
+    top: 30%;
+    left: 5%;
+    z-index: 1;
+}
+
+.toppings{
+    position: absolute;
+    vertical-align: middle;
+    float: right;
+    top: 50%;
+    left: 5%;
+    z-index: 1;
 }

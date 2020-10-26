@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Landing Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400;1,500&display=swap"
+          rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html" style="text-decoration: none">
+                <img class="logo-image" src="logo.jpg" alt="logo"/>
+
+            </a>
+            <a class="logo" href="index.html" style="text-decoration: none">
+                <h4 class="logo">Pizza Delivery</h4>
+            </a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="pizza_choice.html">Order Now</a></li>
+                <li><a class="nav-link" href="#">Menu</a></li>
+                <li><a class="nav-link" href="about_us.html">About us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="order_now.html" method="get">
+            <div class="form">
+                <img class="order-now-image" src="ordernow-background.jpg" alt="Background image" />
+                <div class="name">
+                    <input type="text" name="name" id="name" autocomplete="off" required>
+                    <label class="label-name" for="name">
+                        <span class="content-name">Name</span>
+                    </label>
+                </div>
+                <div class="surname">
+                    <input type="text" name="surname" id="surname" autocomplete="off" required>
+                    <label class="label-name" for="surname">
+                        <span class="content-name">Surname</span>
+                    </label>
+                </div>
+                <div class="phone">
+                    <input type="tel" name="phone" id="phone" autocomplete="off" required>
+                    <label class="label-name" for="phone">
+                        <span class="content-name">Phone number</span>
+                    </label>
+                </div>
+                <div class="email">
+                    <input type="email" name="email" id="email" autocomplete="off" required>
+                    <label class="label-name" for="email">
+                        <span class="content-name">Email address</span>
+                    </label>
+                </div>
+                <div class="address">
+                    <input type="text" name="address" id="address" autocomplete="off" required>
+                    <label class="label-name" for="address">
+                        <span class="content-name">Address</span>
+                    </label>
+                </div>
+                <div class="city">
+                    <input type="text" name="city" id="city" autocomplete="off" required>
+                    <label class="label-name" for="city">
+                        <span class="content-name">City</span>
+                    </label>
+                </div>
+                <div class="postcode">
+                    <input type="text" name="postcode" id="postcode" autocomplete="off" required>
+                    <label class="label-name" for="postcode">
+                        <span class="content-name">Postcode</span>
+                    </label>
+                </div>
+                <button class="order-now-btn" type="submit">Order</button>
+                <div class="order-now-description">
+                    Fill the fields to order pizza and click the button to order.
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

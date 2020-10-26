@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dc81e17-6817-43c5-8b7c-a5c36fba6bca" name="Default Changelist" comment="" />
+    <list default="true" id="4dc81e17-6817-43c5-8b7c-a5c36fba6bca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/about_us.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_now.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ordernow-background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pizza_choice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,12 +44,22 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/style.css" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectId" id="1jFFzkn6BSgi4vtXv8BwtILwfuU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -48,37 +84,67 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603392196625</updated>
-      <workItem from="1603392197849" duration="10599000" />
+      <workItem from="1603392197849" duration="14568000" />
+      <workItem from="1603533963020" duration="7752000" />
+      <workItem from="1603549963930" duration="6464000" />
+      <workItem from="1603641504939" duration="24311000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="0" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603393902791">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="0" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1603393902791" />
-    <state width="762" height="210" key="GridCell.Tab.0.bottom" timestamp="1603394671552">
+    <state x="639" y="310" key="Github.ShareDialog" timestamp="1603414997522">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="762" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603394671552" />
-    <state width="762" height="210" key="GridCell.Tab.0.center" timestamp="1603394671552">
+    <state x="639" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1603414997522" />
+    <state x="569" y="117" key="Github.UntrackedFilesDialog" timestamp="1603415015393">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="762" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603394671552" />
-    <state width="762" height="210" key="GridCell.Tab.0.left" timestamp="1603394671551">
+    <state x="569" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1603415015393" />
+    <state width="762" height="210" key="GridCell.Tab.0.bottom" timestamp="1603492016248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="762" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603394671551" />
-    <state width="762" height="210" key="GridCell.Tab.0.right" timestamp="1603394671552">
+    <state width="762" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603492016248" />
+    <state width="762" height="210" key="GridCell.Tab.0.center" timestamp="1603492016248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="762" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603394671552" />
+    <state width="762" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603492016248" />
+    <state width="762" height="210" key="GridCell.Tab.0.left" timestamp="1603492016248">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="762" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603492016248" />
+    <state width="762" height="210" key="GridCell.Tab.0.right" timestamp="1603492016248">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="762" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603492016248" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1603413641410">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1603413641410" />
+    <state x="81" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1603568401193">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="81" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1603568401193" />
   </component>
 </project>
